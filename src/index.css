@@ -1,0 +1,5 @@
+:root { --ink: #f4f7ff; --muted: #909bb3; --muted-light: #69758e; --surface: #101827; --card: #151f31; --line: #29344a; --blue: #4e9cff; --blue-light: #79b5ff; --blue-wash: rgba(78, 156, 255, .16); --purple-light: #af7dff; --purple-wash: rgba(175, 125, 255, .13); --success: #4ed1ab; --success-wash: rgba(78, 209, 171, .12); --ring-track: #29344a; --gradient: linear-gradient(110deg, #398bf4 0%, #7752e8 100%); --blue-glow: rgba(78, 130, 255, .28); --sans: 'DM Sans', 'Trebuchet MS', sans-serif; --heading: 'Space Grotesk', 'Trebuchet MS', sans-serif; --serif: Georgia, serif; --mono: 'IBM Plex Mono', Consolas, monospace; font: 16px/1.45 var(--sans); color: var(--muted); background: #0b111e; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+* { box-sizing: border-box; }
+body { min-width: 320px; margin: 0; background: radial-gradient(circle at 84% -10%, rgba(85, 69, 176, .28) 0, transparent 33%), radial-gradient(circle at 8% 20%, rgba(35, 112, 195, .14) 0, transparent 28%), #0b111e; }
+button, textarea { font-family: inherit; }
+#root { min-height: 100svh; }
